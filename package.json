@@ -1,0 +1,26 @@
+{
+    "name": "three-planets",
+    "version": "0.0.1",
+    "description": "Planet rendering with ThreeJS",
+    "main": "src/index.js",
+    "repository": "https://github.com/Astrak/three-planets.git",
+    "author": "Adrien Coffre <coffre.a@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "./node_modules/.bin/webpack-dev-server"
+    },
+    "dependencies": {
+        "three": "latest"
+    },
+    "devDependencies": {
+        "@types/dat.gui": "^0.7.2",
+        "dat.gui": "^0.7.6",
+        "ts-loader": "^6.0.4",
+        "tslint": "^5.18.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.5.2",
+        "webpack": "^4.35.2",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
