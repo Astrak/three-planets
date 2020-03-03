@@ -2,6 +2,8 @@
 
 Good looking planets in ThreeJS [in progress].
 
+![image](./example.png)
+
 ## Use
 
 ```bash
