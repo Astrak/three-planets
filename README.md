@@ -4,11 +4,18 @@ Good looking planets in ThreeJS [in progress].
 
 ![image](./example.png)
 
-## Use
+## Installation
 
 ```bash
-yarn add three-planets
+git clone git@github.com:Astrak/three-planets
+cd three-planets
+yarn
+yarn start
 ```
+
+This starts a server on port 8080 showing a scene as in the picture.
+
+## Use
 
 ```typescript
 import { Planet, PlanetMaterial, PlanetAtmosphere } from "three-planets";
